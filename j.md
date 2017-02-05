@@ -1,3 +1,4 @@
+0、ajax
 1、bubbleSort
 2、quickSort
 3、LazyMan
