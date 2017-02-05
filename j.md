@@ -1,0 +1,10 @@
+1、bubbleSort
+2、quickSort
+3、LazyMan
+4、shuffle
+5、flatten
+6、bind
+7、throttle
+8、debounce
+9、binarySearch
+10、currying
