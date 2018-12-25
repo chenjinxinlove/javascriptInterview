@@ -384,6 +384,7 @@ array 2: length=5 last=j,o,n,e,s
 
 
 ```
+console.log(10 + '20') ; 1020
 console.log(1 +  "2" + "2"); //122
 console.log(1 +  +"2" + "2"); //32
 console.log(1 +  -"1" + "2"); //02
@@ -590,6 +591,25 @@ function bar() {
 }
 bar();
 console.log(foo); //1
+
+var foo = 1;
+function bar() {
+    foo = 10;
+    return;
+    function foo() {}
+}
+bar();
+foo = 20
+console.log(foo); //20
+
+var foo = 1;
+function bar() {
+    foo = 10;
+    return;
+}
+bar();
+console.log(foo); //10
+
 ---------------------------------
 var foo = {n:1};
 var bar = foo;
